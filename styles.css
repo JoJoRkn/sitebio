@@ -1,0 +1,33 @@
+/* Estilização geral do body */
+body {
+    font-family: 'Cinzel', Garamond, 'Palatino Linotype', serif;
+    text-align: center;
+    background-color: #000000;
+    color: #000000;  /* Texto em preto para melhor contraste, ajuste se necessário */
+    background-image: url(https://static.wixstatic.com/media/2a3147_c8560f648b0240eeb3738b79b6d4199a~mv2.png/v1/fill/w_980,h_490,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/o%20in%C3%ADcio%20);
+    background-size: cover;
+    position: relative;
+    overflow: auto; /* Permitindo o scroll da página */
+}
+
+/* Estilização das seções de conteúdo */
+section {
+    position: relative;
+    z-index: 2; /* Garante que o conteúdo fique sobre o fundo */
+    background: rgba(255, 255, 255, 0.644); /* Fundo branco semitransparente para melhor leitura */
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+/* Estilização dos títulos */
+h1, h2 {
+    margin-bottom: 10px;
+    color: #000000; /* Títulos em preto para contraste */
+}
+
+/* Estilização dos parágrafos e listas */
+p, ul {
+    color: #000000; /* Texto escuro para melhor legibilidade dentro das seções */
+}
